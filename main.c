@@ -1,5 +1,9 @@
 int main() {
+  int i;
+  printf("Hello world\n");
 
-  printf("Hello world");
+  for (i = 0; i < 10; i++) {
+    printf("%d\n", i);
+  }
   return 0;
 }
